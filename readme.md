@@ -21,7 +21,7 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
   have to focus on whatever the most people want.  We'll decide on a game plan
   at the beginning of the session, after introductions and such.
 
-### Unplanned
+### Scheduled
 
 - Week 02 (Friday, September 5, 3-4pm; CS 110B)
 - Week 03 (Friday, September 12, 3-4pm; CS 110B)
