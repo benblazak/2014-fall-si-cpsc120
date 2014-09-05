@@ -20,7 +20,7 @@ eventually.
 
 ### Planned
 
-- Week 02 (Friday, September 5)
+- Week 03 (Wednesday, September 10)
     - Review lecture materials
     - Discuss some of the reasoning behind the way computers are designed
     - Help each other set up programming environments on personal computers
