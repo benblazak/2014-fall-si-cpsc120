@@ -9,6 +9,15 @@ The CSUF Academic Calendar (for holidays and such) can be found [here] (TODO),
 or subscribed to using [this link] (TODO).  The finals schedule can be found
 [here] (TODO).
 
+|    Day    |    Time     |         Location         |   Leader   |
+| --------- | ----------- | ------------------------ | ---------- |
+| Friday    | 3-4pm       | CS 110B                  | Ben Blazak |
+| Wednesday | 1:15-2:15pm | ULC (2nd floor, library) | Ben Blazak |
+
+<!-- TODO -->
+I'll try to get the times and locations for the other SI sessions up here
+eventually.
+
 ### Planned
 
 - Week 02 (Friday, September 5)
@@ -20,13 +29,4 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
   Note that any of these things could easily take up the full hour, so we'll
   have to focus on whatever the most people want.  We'll decide on a game plan
   at the beginning of the session, after introductions and such.
-
-|    Day    |    Time     |         Location         |   Leader   |
-| --------- | ----------- | ------------------------ | ---------- |
-| Friday    | 3-4pm       | CS 110B                  | Ben Blazak |
-| Wednesday | 1:15-2:15pm | ULC (2nd floor, library) | Ben Blazak |
-
-<!-- TODO -->
-I'll try to get the times and locations for the other SI sessions up here
-eventually.
 
