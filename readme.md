@@ -11,8 +11,8 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
 
 |    Day    |    Time     |         Location         |   Leader   |
 | --------- | ----------- | ------------------------ | ---------- |
-| Friday    | 3-4pm       | CS 110B                  | Ben Blazak |
 | Wednesday | 1:15-2:15pm | ULC (2nd floor, library) | Ben Blazak |
+| Friday    | 3-4pm       | CS 110B                  | Ben Blazak |
 
 <!-- TODO -->
 I'll try to get the times and locations for the other SI sessions up here
