@@ -20,6 +20,14 @@ eventually.
 
 ### Planned
 
+- Week 03 (Friday, September 12)
+    - Questions
+    - Stages of Compilation (discussion)
+    - Variables, Basic Operators, and Assignment
+    - Program design (group exercise, if there's time)
+
+### Past
+
 - Week 03 (Wednesday, September 10)
     - Review lecture materials
     - Discuss some of the reasoning behind the way computers are designed
