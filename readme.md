@@ -3,6 +3,14 @@
 A place for helpful links, review materials, and whatever else we come up with.
 
 
+## Other SI Leaders
+
+- [Joseph Green] (https://github.com/joegreene/CS_121_Fall_2014) (CPSC 121)
+
+<!-- TODO -->
+And I'll try to add the others as they get their websites set up.
+
+
 ## Calendar
 
 The CSUF Academic Calendar (for holidays and such) can be found [here] (TODO),
