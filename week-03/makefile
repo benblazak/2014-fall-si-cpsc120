@@ -17,11 +17,6 @@ clean:
 cleanall: clean
 	-rm $(PDF) $(FIG)
 
-copy-%:
-	cp -n ../$*/.gitignore .
-	cp -n ../$*/_gvimrc .
-	cp -n ../$*/$*.tex .
-
 # -----------------------------------------------------------------------------
 
 .PRECIOUS: %.cpp.txt
