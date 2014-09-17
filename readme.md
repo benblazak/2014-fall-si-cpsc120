@@ -20,8 +20,8 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
 
 |      Day      |       Time        |           Location           |       Leader       |    Class     |
 | ------------- | ----------------- | ---------------------------- | ------------------ | ------------ |
-| **Wednesday** | **1:15-2:15pm  ** | **ULC (2nd floor, library)** | **Ben Blazak    ** | **CPSC 120** |
-| **Friday   ** | **3-4pm        ** | **CS 110B                 ** | **Ben Blazak    ** | **CPSC 120** |
+| **Wednesday** | **1:15-2:15pm**   | **ULC (2nd floor, library)** | **Ben Blazak**     | **CPSC 120** |
+| **Friday**    | **3-4pm**         | **CS 110B**                  | **Ben Blazak**     | **CPSC 120** |
 |   Wednesday   |   3-4pm           |   ULC (2nd floor, library)   |   Ryan Larson      | **CPSC 120** |
 |   Friday      |   10-11am         |   CS 110A                    |   Ryan Larson      | **CPSC 120** |
 |   Tuesday     |   10-11am         |   ULC (2nd floor, library)   |   Eric Roe         | **CPSC 120** |
