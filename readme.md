@@ -58,3 +58,11 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
   have to focus on whatever the most people want.  We'll decide on a game plan
   at the beginning of the session, after introductions and such.
 
+
+## Helpful Links
+
+- [Labs for my SI class from last semester]
+  (https://github.com/benblazak/2014-spring-si-cpsc120)  
+  A lot of the same examples I'm using this semester are there as well, with
+  more thorough explanation (since we weren't printing them then).
+
