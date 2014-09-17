@@ -5,7 +5,7 @@ A place for helpful links, review materials, and whatever else we come up with.
 
 ## Other SI Leaders
 
-- [Joseph Green] (https://github.com/joegreene/CS_121_Fall_2014) (CPSC 121)
+- [Joseph Greene] (https://github.com/joegreene/CS_121_Fall_2014) (CPSC 121)
 
 
 <!-- TODO -->
