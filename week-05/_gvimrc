@@ -1,0 +1,21 @@
+" -----------------------------------------------------------------------------
+" macros for cpsc 120 si
+" -----------------------------------------------------------------------------
+
+inoremap $$  $<esc>F a$<esc>f$a
+
+inoremap TB \textbf{
+inoremap TI \textit{
+inoremap TE \text{
+
+inoremap EE \begin{enumerate}<enter>\end{enumerate}<esc>O
+inoremap II \begin{itemize}<enter>\end{itemize}<esc>O
+inoremap SS \filbreak<enter>\section*{
+
+inoremap .i \item
+inoremap .s \filbreak<enter>\section*{
+
+inoremap .m  \mintinline{cpp}{
+inoremap .M  \begin{minted}{cpp}<enter>\end{minted}<esc>O
+inoremap .im \inputminted{cpp}{
+

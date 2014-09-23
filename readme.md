@@ -31,33 +31,6 @@ or subscribed to using [this link] (TODO).  The finals schedule can be found
 |   Friday      |   12-1pm          |   CS 110B                    |   Joseph Greene    |   CPSC 121   |
 |   Wednesday   |   4-5pm           |   ULC (2nd floor, library)   |   Joseph Greene    |   CPSC 121   |
 
-### Planned
-
-- Week 04 (September 17 and 19)
-    - Questions
-    - Identifiers
-    - Basic Data Types and Integer Representation
-    - Assignment
-    - Program Design
-
-### Past
-
-- Week 03 (September 12)
-    - Questions
-    - Stages of Compilation (discussion)
-    - Variables, Basic Operators, and Assignment
-    - Program design (group exercise, if there's time)
-
-- Week 03 (September 10)
-    - Review lecture materials
-    - Discuss some of the reasoning behind the way computers are designed
-    - Help each other set up programming environments on personal computers
-    - Anything else that comes up
-
-  Note that any of these things could easily take up the full hour, so we'll
-  have to focus on whatever the most people want.  We'll decide on a game plan
-  at the beginning of the session, after introductions and such.
-
 
 ## Helpful Links
 
