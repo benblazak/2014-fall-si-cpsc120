@@ -38,11 +38,13 @@
 \usepackage[fleqn]{amsmath}
 \usepackage{amssymb}
 \usepackage{array}
-\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
 \usepackage{fancybox}
 \usepackage{fancyhdr}
 \usepackage{l3regex}
+\usepackage{luacode}
 \usepackage{mathtools}
+\usepackage[framemethod=TikZ]{mdframed}
 \usepackage{minted}
 \usepackage{multicol}
 \usepackage{multirow}
@@ -205,10 +207,39 @@
 \long\def \proof    #1{\subproof{#1}}
 \long\def \solution #1{\subsolution{#1}}
 
+\def \inputcppwithsol #1{
+  \vspace{1.5ex}
+  \begin{mdframed}[roundcorner=3mm,backgroundcolor=black!5]
+    \centering \luaexec{tex.print((string.gsub('#1','_','\\_')))}
+  \end{mdframed}
+  \vspace{-4ex}
+  \inputminted{cpp}{#1}
+  \inputminted[frame=single,rulecolor=\color{.!30},framesep=2mm]{text}
+              {#1.txt}
+}  
+
 % }}}
 % -----------------------------------------------------------------------------
 % document
 % -----------------------------------------------------------------------------
+
+% rough overview of topics for this week
+% . syntax and stuff
+%   . declaration vs initialization
+%   . math library
+%   . operators
+%   . cin and cout
+%     - input errors
+% . data types
+%   . integer division
+%   . the dangers of float
+%   . typecasting and promotion
+% . practice
+%   . equivalent declarations and assignments
+%   . converting algebra into c++
+%   . order of operations and associativity
+%   . 'a'+5
+% - program design!
 
 \begin{document}
 \thispagestyle{firstpage}
@@ -217,14 +248,121 @@ The website for these SI sessions is
 \url{https://github.com/benblazak/2014-fall-si-cpsc120}.
 
 Many of these examples are from
-\url{https://github.com/benblazak/2014-spring-si-cpsc120},
-which is full of stuff I wrote for a lab last semester.  If you're looking for
-extra practice, this is one of many places you might start.
+\url{https://github.com/benblazak/2014-spring-si-cpsc120}, which is full of
+stuff I wrote for a lab last semester.  If you're looking for extra practice,
+this is one of many places you might start.
+
+Along with your book, \url{http://www.cplusplus.com/doc/tutorial/} is a great
+resource for tutorials, and \url{http://www.cplusplus.com/reference/clibrary/}
+is a great reference.
 
 
 \filbreak
-\section*{}
-% TODO
+\section*{Syntax and Stuff}
+\begin{itemize}[itemsep=10ex]
+
+  \item What's the difference between the ``declaration'' and the
+    ``initialization'' of a variable?
+
+  \item What is the \mintinline{cpp}{cmath} library?  Where can I learn about
+    it?
+
+  \item What is a binary operator?  A unary operator?
+
+  \item What is operator precedence?  Associativity?
+
+  \item What is the syntax for a \mintinline{cpp}{cout} statement (i.e.~what
+    are each of the pieces in a full statement beginning with
+    \mintinline{cpp}{cout})?
+
+  \item What is the syntax for a \mintinline{cpp}{cin} statement?
+
+\end{itemize}
+
+
+\filbreak
+\section*{Practice}
+\begin{itemize}[itemsep=15ex]
+
+  \item At the beginning of your program, you want a variable
+    \mintinline{cpp}{a} equal to \mintinline{cpp}{5} and a variable
+    \mintinline{cpp}{b} equal to \mintinline{cpp}{7}.  What are three different
+    ways to write this?
+
+  \item Convert the following equations to C++ syntax:
+    \begin{itemize}[(a),itemsep=7ex]
+
+      \item $c = \sqrt{a^2+b^2}$
+
+      \item $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+
+    \end{itemize}
+    \vspace{7ex}
+
+\end{itemize}
+
+
+\filbreak
+\section*{Program Design}
+From the Abacus International Math Challenge, for Grades 3--4:
+
+\begin{quote}
+  A.975. The Strongest Man of Etown had to roll a huge rock ball 10 meters. The
+  spectators may guess the weight of the ball. Four people gave the following
+  guesses to the organizers: 196 kg, 163 kg, 178 kg, and 185 kg. One guess was
+  1 kg off, one was 6 kg off, one was 17 kg off, and one was 16 kg off.  How
+  many kg was the weight of the ball?
+\end{quote}
+
+How could we find the answer using C++?
+
+
+\filbreak
+\section*{Code}
+         \inputcppwithsol{operators.cpp}
+\filbreak\inputcppwithsol{float.cpp}
+\filbreak\inputcppwithsol{typecast.cpp}
+
+
+\filbreak
+\section*{Things to Think About}
+\begin{itemize}
+
+  \item What the heck do \mintinline{cpp}{<<} and \mintinline{cpp}{>>} do in
+    the context of input and output streams?  (Note: Looking into this
+    thoroughly will take you into the realm of objects, operator overloading,
+    and all sorts of fun stuff you won't be seeing in class for a long while.
+    Still worth looking into though.)
+
+    \url{http://www.cplusplus.com/reference/ostream/ostream/operator%3C%3C/}
+
+    \url{http://www.cplusplus.com/reference/istream/istream/operator%3E%3E/}
+
+  \item What's a ``stream''?
+
+    \url{http://stackoverflow.com/questions/12145357/c-what-is-a-stream}
+
+    \url{http://www.cprogramming.com/tutorial/c++-iostreams.html}
+
+  \item Why \mintinline{cpp}{static_cast} instead of other types of casting?
+
+    \url{http://stackoverflow.com/questions/103512/in-c-why-use-static-castintx-instead-of-intx}
+
+  \item What is a \mintinline{cpp}{namespace}, and why are they important?
+
+    \url{http://www.cprogramming.com/tutorial/namespaces.html}
+
+\end{itemize}
+
+
+\filbreak
+\section*{Operator Precedence and Associativity List}
+From \url{http://www.cplusplus.com/doc/tutorial/operators/} near the bottom of
+the page.
+
+\vspace{5ex}
+
+\includegraphics[width=\textwidth]{cplusplusdotcom--operator-prescedence.pdf}
 
 
 \end{document}
